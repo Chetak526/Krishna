@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login For Inmates</title>
+	<style type="text/css">
+		
+		body{
+
+			background-image: url(images/krishna2.bmp);
+			background-size: cover;
+		}
+
+		.aa{
+           width:500px;
+           height: 300px;
+           background-color: rgba(0,0,0,0.3);
+           margin: 0px auto;
+           margin-top:80px;
+           padding:30px 30px 30px 30px; 
+            -webkit-border-radius:15px;
+            -o-border-radius:15px;
+            -moz-border-radius:15px;
+            color:white;
+            font-weight: bolder;
+            box-shadow:inset -4px -4px rgba(0,0,0,0.6);
+            font-size: 18px;
+		}
+
+		.aa input[type="text"]{
+				width: 350px;
+				height:40px;
+				border:10;
+				border-radius:5px;
+				-webkit-border-radius:5px;
+				-o-border-radius:5px;
+				-moz-border-radius:5px;
+				padding-left:5px;
+				border-color: lightpink;
+
+
+		}
+
+		.aa input[type="password"]{
+				width: 350px;
+				height:40px;
+				border:10;
+				border-radius:5px;
+				-webkit-border-radius:5px;
+				-o-border-radius:5px;
+				-moz-border-radius:5px;
+					padding-left:5px;
+					border-color: lightpink;
+
+		}
+
+		.aa input[type="button"]{
+				width: 200px;
+				height:50px;
+				border:10;
+				border-radius:5px;
+				-webkit-border-radius:5px;
+				-o-border-radius:5px;
+				-moz-border-radius:5px;
+				background-color: skyblue;
+				font-weight: bolder;
+				}
+
+	input[type=text],input[type=password]{
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size:0.7em;
+}
+input[type=button]{
+	margin-top: 10px;
+	font-size:0.7em;
+	cursor: pointer;
+}
+form{
+	font-family: cursive;
+	font-size:1.5em;
+}
+
+		
+	</style>
+</head>
+<body>
+<div class="aa">
+<h1>Login for Inmates Only</h1><hr>
+	<form>
+
+	Username:<input type="text" placeholder="Please Enter Username....." name="username"><br><br>
+	Password:<input type="password" placeholder="Please enter Password....." name="password"><br>
+	<input type="button" onclick="check(this.form)" value="Login">
+	</form>
+	</div>
+<script language="javascript">
+function check(form) {
+	if(form.username.value == "gauranga" && form.password.value == "gauranga")
+	{
+	window.open("newpage.html") && window.close("checkpoint.html")
+	}
+	else if(form.username.value == "" || form.password.value == ""){
+		alert("Please fill in all fields");
+	}
+	else if(form.username.value !== "gauranga" || form.password.value !== "gauranga")
+	{
+		alert("The Username or the Password you entered is incorrect");
+	}
+}
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="upload.css">
+	<title>Welcome to REMUNA-VOICE</title>
+
+	<script>	
+		function func(){
+			if(confirm("Are you sure?") == true){
+				document.getElementById("form").innerHTML="Your file uploaded Successfully";
+			}
+		}
+	</script>
+
+</head>
+<body>
+	<div id="header">
+	<ol id="nav">
+		<li>Welcome To Upload-Page</li>
+	</ol>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="inmates.html">Videos</a></li>
+			
+		</ul>
+	</div>
+	<div id="last">
+	<input type="file" name="file" id="file" accept="image/gif, image/jpeg, image/png">
+	<input type="submit" id="button" onclick="func(this)"><br><br>
+	<p id="form"></p>
+	</div>
+	</body>
+	</html>

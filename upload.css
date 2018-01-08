@@ -1,0 +1,77 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background:url("gif files/unnamed (4).gif");
+
+}
+#header{
+	width:1362px;
+	height:50px;
+	font-family:cursive;
+	font-size:1.7em;
+	background-color: black;
+	opacity:0.8;
+	border-radius:5px;
+	border:2px solid orange;
+	
+}
+#nav{
+	font-weight: bold;
+	font-size: 2.3em;
+	z-index: -999;
+	position:relative;
+}
+ol li{
+	list-style-type: none;
+	float:left;
+	color:orange;
+	margin-left:0px;
+	line-height:45px;
+	text-align: center;
+	-webkit-animation-name:examp;
+	-webkit-animation-duration:4s;
+	-webkit-animation-iteration-count:infinite;
+}
+@-webkit-keyframes examp{
+	0%{-webkit-transform:skew(10deg);}
+	25%{margin-left:140px;color:pink;}
+	50%{margin-left:0px;color:lightblue;}
+	75%{margin-left:140px;color:green;}
+	100%{-webkit-transform:skewX(-10deg);color:orange;}
+}
+ul{
+	margin-right:20px;
+}
+ul li{
+	float: right;
+	list-style-type: none;
+	padding:10px;
+	line-height: 20px;
+	margin-right: 40px;
+}
+ul li a{
+	text-decoration: none;
+	color:white;
+}
+ul li a:hover{
+	color:orange;
+	opacity:0.8;
+}
+#file{
+	padding-top: 100px;
+}
+#last{
+	width:420px;
+	height:200px;
+	background-color:green;
+	margin-top:200px;
+	margin-left:450px;
+	padding-left:50px;
+}
+p{
+	font-family: cursive;
+	font-size:1.5em;
+	color:white;
+}

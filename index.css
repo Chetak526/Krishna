@@ -1,0 +1,212 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	
+}
+#header{
+	width:1362px;
+	height:50px;
+	font-family:cursive;
+	font-size:1.7em;
+	background-color: black;
+	opacity:0.8;
+	border-radius:5px;
+	border:2px solid orange;
+	position:fixed;
+	z-index: 99999;
+}
+#nav{
+	font-weight: bold;
+	font-size: 2.3em;
+	z-index: -999;
+	position:relative;
+}
+ol li{
+	list-style-type: none;
+	float:left;
+	color:orange;
+	margin-left:0px;
+	line-height:45px;
+	text-align: center;
+	-webkit-animation-name:examp;
+	-webkit-animation-duration:4s;
+	-webkit-animation-iteration-count:infinite;
+}
+@-webkit-keyframes examp{
+	0%{-webkit-transform:skew(10deg);}
+	25%{margin-left:140px;color:pink;}
+	50%{margin-left:0px;color:lightblue;}
+	75%{margin-left:140px;color:green;}
+	100%{-webkit-transform:skewX(-10deg);color:orange;}
+}
+ul{
+	margin-right:20px;
+}
+ul li{
+	float: right;
+	list-style-type: none;
+	padding:10px;
+	line-height: 20px;
+	margin-right: 40px;
+}
+ul li a{
+	text-decoration: none;
+	color:white;
+}
+ul li a:hover{
+	color:orange;
+	opacity:0.8;
+}
+#middle{
+	background:url("images/krishna.jpg");
+	z-index: 500;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:670px;
+	width:100%;
+	margin-top: 0px;
+}
+#middle h1{
+	text-align:center;
+	font-weight: bold;
+	font-size:4em;
+	font-family: sans-serif;
+	padding-top: 150px;
+	color:blue;
+	-webkit-animation-name:ex;
+	-webkit-animation-duration:5s;
+	-webkit-animation-iteration-count:infinite;
+}
+@-webkit-keyframes ex{
+	0%{font-size:1em;color:gold;}
+	25%{font-size:4em}
+	50%{font-size:4em}
+	75%{font-size:4em}
+	100%{font-size:1em;color:red;}
+}
+#middle h1 em{
+	color:green;
+	font-size: 1.2em;
+	font-family: cursive;
+}
+#middle2{
+	height:600px ;
+	width: 100%;
+	background-color:#f0bf00;
+	-webkit-animation-name:example;
+	-webkit-animation-duration:5s;
+	-webkit-animation-iteration-count:infinite;
+}
+@-webkit-keyframes example{
+	0%{background-color:hsla(120,100%,50%,0.3);color:blue;margin-top:-40px;}
+	25%{background-color:hsl(290,100%,50%);color:black;margin-top:0px;}
+	50%{background-color:hsl(0, 100%, 50%);color:gold;margin-top:-40px;}
+	75%{background-color:linear-gradient(red, yellow);color:violet;margin-top:0px;}
+	100%{background-color:gold;color:green;margin-top:-40px;}
+}
+#middle2 h1{
+	font-family: 'Patua One',cursive;
+	font-size:3.5em;
+	text-align:center;
+	padding-top: 100px;
+	-webkit-animation-name:exam;
+	-webkit-animation-duration:4s;
+	-webkit-animation-iteration-count:infinite;
+}
+#middle2 h1 em{
+	color:white;
+	font-size: 1.5em;
+	}
+@-webkit-keyframes exam{
+	0%{-webkit-transform:rotateX(5deg);}
+	25%{-webkit-transform:rotateY(30deg);}
+	50%{-webkit-transform:rotateY(-30deg);}
+	75%{-webkit-transform:rotateX(-5deg);}
+	100%{-webkit-transform:rotateX(5deg);}
+}
+p{
+	text-align: center;
+	font-family: cursive;
+	color: black;
+	font-size:2em;
+}
+
+h2{
+	font-family: cursive;
+	font-size:1.85em;
+	background-color:green;
+}
+#middle4{
+	background-image:url("gif files/finger.gif");
+	width:100%;
+	height:600px;
+}
+#middle4 h1{
+	padding:470px;
+	padding-left:430px;
+	opacity:0.8;
+	font-family:cursive;
+	color:white;
+}
+#footer h2{
+	background:red;
+	text-align:center;
+	font-size:2.5em;
+	margin-top: 50px;
+}
+#footer2{
+	width:100%;
+	height:360px;
+	background-color: green;
+	float:right;
+}
+form{
+	text-align: center;
+	color: white;
+	font-size:2em;
+	padding:10px;
+}
+input[type=text]{
+	width:500px;
+	height: 50px;
+	text-align: center;
+	border:2px solid #F0C70D;
+	border-radius: 8px;
+	font-size: 0.7em;
+	background-color: black;
+	opacity: 0.4;
+	color: white;
+}
+input[type=button]{
+	height: 55px;
+	width:120px;
+	cursor: pointer;
+	border-radius: 8px;
+	background-color: #F0C70D;
+	font-size: 0.7em;
+	color: white;
+}
+textarea{
+	width:1010px;
+	height: 150px;
+	text-align: center;
+	border:2px solid #F0C70D;
+	border-radius: 8px;
+	font-size: 0.7em;
+	background-color: black;
+	opacity: 0.4;
+	color: white;
+}
+#footer3{
+	background-color:black;
+}
+#footer3 h1{
+	text-align: center;
+	line-height: 100px;
+	font-size: 3.5em;
+	font-family: 'Patua One', cursive;
+	color: white;
+}
+
